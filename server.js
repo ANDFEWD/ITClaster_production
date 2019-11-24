@@ -16,7 +16,7 @@ main.set('view engine', 'html');
 main.use(express.static(__dirname + '/'));
 
 main.post('/submit', (req, res) => {
-    console.log('req.body', req.body);
+    // console.log('req.body', req.body);
     let contactForm = `Name: ${req.body.name}\nEmail: ${req.body.email}\nPhone: ${req.body.phone}\nSubject:${req.body.subject}\nMessage: ${req.body.messagetext}`
     bot.sendMessage(chatId,contactForm)
     .then((resolvedValue) => {

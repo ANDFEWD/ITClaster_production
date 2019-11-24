@@ -9,8 +9,8 @@ $(document).ready(function(){
 $(formdata).each(function(index, obj){
     data[obj.name] = obj.value;
 });
-	console.log(data);
-    
+	// console.log(data);
+    $('#myForm').reset();
     $.ajax ({
       type: 'POST',
       url: "/submit",
