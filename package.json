@@ -12,7 +12,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-boom": "^3.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-telegram-bot-api": "^0.40.0",
     "nodemon": "^1.19.4",
     "telegram-bot": "^0.4.2"
